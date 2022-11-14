@@ -27,15 +27,65 @@ main {
     max-width: 2000px;
     width: 900px;
 }
-    .link {
+    .link1 {
 
         color: #333333;
         font-size: 20px;
         padding-top: 0%;
     }
 
-    .link:hover {
-        color: pink;
+    .link1:hover {
+        color: #bcb72a;
+    }
+    .link2 {
+
+        color: #333333;
+        font-size: 20px;
+        padding-top: 0%;
+    }
+
+    .link2:hover {
+        color: #ffb2c2;
+    }
+    .link3 {
+
+        color: #333333;
+        font-size: 20px;
+        padding-top: 0%;
+    }
+
+    .link3:hover {
+        color: #c1aadf;
+    }
+    .link4 {
+
+        color: #333333;
+        font-size: 20px;
+        padding-top: 0%;
+    }
+
+    .link4:hover {
+        color: #e34a4a;
+    }
+    .link5 {
+
+        color: #333333;
+        font-size: 20px;
+        padding-top: 0%;
+    }
+
+    .link5:hover {
+        color: #bcb72a;
+    }
+    .link6 {
+
+        color: #333333;
+        font-size: 20px;
+        padding-top: 0%;
+    }
+
+    .link6:hover {
+        color: #ffb2c2;
     }
 
     .search {
@@ -53,14 +103,6 @@ main {
         transform: translate(-50%, -50%);
         padding-right: 200px;
         border-radius: 10px 10px 510px 10px;
-    }
-
-    .mads {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 50px;
     }
 
     .skate {
