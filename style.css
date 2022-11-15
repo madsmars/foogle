@@ -30,6 +30,7 @@ header {
     .top-links {
         display: flex;
         flex-direction: column;
+        padding-top: 10px;
     }
 
     .nav-link {
@@ -139,7 +140,13 @@ header {
         transform: translateY(-110%);
     }
 
-    ul {
+    .top {
+        list-style-type: none;
+        padding-left: 0px;
+        line-height: 10px;
+    }
+
+    .bottom {
         list-style-type: none;
         padding-left: 0px;
         line-height: 30px;
