@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 50%;
@@ -44,11 +49,10 @@ header {
         margin: 0;
     }
 
-main {
-    size: auto;
+/* main {
     max-width: 2000px;
-    width: 900px;
-}
+    width: 100%;
+} */
     .link1 {
 
         color: grey;
@@ -112,18 +116,18 @@ main {
 
     .search {
         border: 0px solid #333333;
-        padding-left: 10px;
-        margin: 10px;
-        boarder: 30%;
+        padding-top: 0;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 170px;
+        margin: 0 auto;
+        margin-top: 200px;
+        border: 30%;
+        width: 100%;
         max-width: 500px;
         box-shadow: 0px 0px 9px 0.5px #ead1dc;
-        padding-top: 0;
-        line-height: 30px;
-        position: absolute;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding-right: 200px;
+        
+        line-height: 20px;
         border-radius: 20px 20px 510px 20px;
     }
 
@@ -132,14 +136,13 @@ main {
         max-width: 700px;
         height: auto;
         position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translateY(-110%);
     }
 
     ul {
         list-style-type: none;
         padding-left: 0px;
+        line-height: 30px;
     }
 
     .trend {
